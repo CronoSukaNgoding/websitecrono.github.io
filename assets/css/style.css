@@ -123,3 +123,32 @@ body{
     padding-top: 5%;
 }
     
+
+/*about me*/
+#aboutme{
+    position:relative;
+    padding: 3%;
+}
+
+h1{
+    color:#83FFE1;
+    font-weight: bolder;
+}
+
+.halo{
+    font-weight: bolder;
+    color:#FFADED;
+}
+.aboutme{
+    padding-left: 20%;
+    padding-right:20%;
+}
+p{
+    color:#fff;
+    text-align:justify;
+}
+
+p span{
+    color:#83FFE1;
+    font-weight: bolder;
+}
