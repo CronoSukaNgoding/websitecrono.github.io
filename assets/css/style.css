@@ -40,7 +40,9 @@ body{
 
 .navbar-nav a{
     position:relative;
-    color: #83FFE1 !important;
+    color: #83FFE1!important ;
+    font-weight: bolder;
+    
     
 }
 .navbar-nav  li{
@@ -49,12 +51,16 @@ body{
 .navbar-nav a:after{
     content:"";
     position: absolute;
-    background-color: #83FFE1;
+    background-color: #FFADED;
     height: 3px;
     width: 0;
     left:0px;
     bottom:-1px;
     transition:0.3s;
+    border-radius: 10px;
+}
+.navbar-nav a:hover{
+    color:#FFADED!important;
 }
 .navbar-nav a:hover:after{
     width: 100%;
