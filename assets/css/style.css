@@ -17,18 +17,35 @@ body{
     position: sticky !important;
     top: 0 !important;
     z-index: 1!important;
+    margin:auto;
+    
     
 }
 .navbar-brand span {
     font-weight: bolder;
     color: #83FFE1;
 }
-.navbar-nav li {
-    padding: 0 45px;
 
-}
-.navbar-nav li a{
+.navbar-nav a{
+    position:relative;
     color: #83FFE1 !important;
+    letter-spacing: 0.5px;
+    padding: 0 45px;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar-nav a:after{
+    content:"";
+    position: absolute;
+    background-color: #83FFE1;
+    height: 3px;
+    width: 0;
+    left:10px;
+    bottom:-5px;
+    transition:0.3s;
+}
+.navbar-nav a:hover:after{
+    width: 80%;
 }
 .btn{
     background-color: #FFADED;
