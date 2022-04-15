@@ -10,6 +10,18 @@ body{
     margin:0;
     padding:0;
 }
+ /*scrollbar*/
+::-webkit-scrollbar{
+    width:15px;
+}
+::-webkit-scrollbar-track{
+    background:#c4c4c4;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#83FFE1;
+    border-radius:10px;
+}
 
 /* navbar */
 #nav {
