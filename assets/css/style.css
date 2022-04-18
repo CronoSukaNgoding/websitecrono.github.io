@@ -162,7 +162,7 @@ body{
     position: absolute;
     top:50%;
     transform: translateY(-50%);
-    z-index:10000;
+    
     width:100%;
     height:180px;
     transition: 0.5s;
@@ -193,7 +193,6 @@ body{
     height:50px;
     text-align: center;
     transition: 1s;
-    z-index: 10;
 }
 .container .card1:hover .contentBx,
 .container .card2:hover .contentBx,
