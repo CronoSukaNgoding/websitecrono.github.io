@@ -371,11 +371,13 @@ body{
     color:#83FFE1;
     font-weight: bolder;
 }
+
 .instagram {
-    width: 400px;
-    height: 700px;
+    width: 325px;
+    height: 570px;
     background: #fff !important;
     padding: 20px;
+    
 
 }
 
@@ -418,8 +420,8 @@ body{
 }
 
 .insta-img img {
-    width: 350px;
-    height: 400px;
+    width: 300px;
+    height: 295px;
     position: relative;
     bottom: 72px;
 }
@@ -450,7 +452,7 @@ body{
 }
 
 .like-item img {
-    width: 26px;
+    width: 23px;
     margin: 0 5px;
 }
 
