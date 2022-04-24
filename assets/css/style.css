@@ -374,7 +374,7 @@ body{
 
 .instagram {
     width: 325px;
-    height: 620px;
+    height: 640px;
     background: #fff !important;
     padding: 20px;
     
@@ -414,16 +414,14 @@ body{
     position: relative;
     left: 90%;
     top: -78px;
-    width: 30px;
+    width: 26px;
     margin-bottom: 18px;
 
 }
 
 .insta-img img {
-    width: 420px;
-    height:350px;
     position: relative;
-    bottom: 72px;
+    bottom: 75px;
 }
 
 .like-item {
