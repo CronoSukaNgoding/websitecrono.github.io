@@ -104,7 +104,7 @@ body{
 .dash {
     border: 2px solid #83FFE1;
     border-radius: 20px;
-    width: 200px;
+    width: 70px;
     height: -10px;
     bottom: 24px;
     left:270px;
@@ -280,14 +280,14 @@ body{
 .dashstrip{
     border: 2px solid #83FFE1;
     border-radius: 20px;
-    width: 200px;
+    width: 70px;
     height: -10px;
     bottom: 24px;
     left:180px;
-    z-index: 1;
     position:relative;
     background-color: #83FFE1;
 }
+
 .card-deck{
     padding-bottom: 5%;
 }
