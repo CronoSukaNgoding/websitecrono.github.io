@@ -351,7 +351,7 @@ body{
     padding: 0;
 }
 
- .about {
+.about {
     color:#83FFE1;
     font-weight: bolder;
 }
@@ -379,8 +379,6 @@ body{
     height: 640px;
     background: #fff !important;
     padding: 20px;
-    
-
 }
 
 .img {
@@ -418,7 +416,6 @@ body{
     top: -78px;
     width: 26px;
     margin-bottom: 18px;
-
 }
 
 .insta-img img {
@@ -478,4 +475,29 @@ body{
     bottom: 60px;
     left: 20px;
     bottom: 40px;
+}
+
+/*social*/
+.iconn{
+    display: inline-block;
+    font-size: 44px;
+    animation: float 5s ease-in-out
+    infinite;
+}
+.ri-github-circle-line{
+    animation-delay: 1s;
+}
+.ri-whatsapp-line{
+    animation-delay: 2s;
+}
+@keyframes float{
+    0%{
+        transform:translateY(0);
+    }
+    50%{
+        transform:translateY(-15px);
+    }
+    100%{
+        transform:translateY(0);
+    }
 }
